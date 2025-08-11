@@ -1,0 +1,52 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 20px 40px;
+   
+}
+.logo {
+    width: 100px;
+}
+.left-box {
+    flex: 1;
+
+
+}
+.middle-box{
+    flex: 2;
+
+}
+.right-box {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+
+}
+.search-box {
+    height: 40px;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid black;
+    padding-left: 15px;
+    
+}
+.search-box:focus {
+    outline: 1px solid blue;
+}
+.create-btn {
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+}
+.create-btn:hover {
+    cursor: pointer;
+    color: gray;
+}
