@@ -126,10 +126,25 @@ nav {
 
 
 /* THIS IS FOR THE VIDEO SECTION */
+
+.video-time {
+    position: relative;
+}
+.video-hi {
+    position: absolute;
+    bottom: 18px;
+    right: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 1px 4px;
+     font-size: small;
+    background-color: rgb(33, 26, 26)
+   
+}
 .video-section {
     padding: 40px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 .video-image {
     width: 430px;
