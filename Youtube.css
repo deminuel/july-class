@@ -133,7 +133,7 @@ nav {
 .video-hi {
     position: absolute;
     bottom: 18px;
-    right: 15px;
+    right: 85px;
     color: white;
     border-radius: 10px;
     padding: 1px 4px;
@@ -142,13 +142,17 @@ nav {
    
 }
 .video-section {
-    padding: 40px;
+    /* padding: 40px;
     display: flex;
-    gap: 20px;
+   flex-wrap: wrap;
+    gap: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .video-image {
-    width: 430px;
     border-radius: 10px;
+    width: 430px
+    
 }
 .video-image:hover {
     cursor: pointer;
@@ -179,7 +183,5 @@ nav {
     flex-direction: column;
     gap: 5px;
     color: #606060;
-    
-
     
 }

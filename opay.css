@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    width: 100px;
+    
+
+}
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.left-box div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.head {
+    color: black;
+      
+    
+}
+.right-box {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+}
+.regular {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.play {
+    border-radius: 50%;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    position: relative;
+    
+     
+}
+.play span {
+     color: rgb(233, 10, 10);
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: pink;
+    
+}
+
+/* THIS IS ANOTHER NAVBAR */
+
+
+.section {
+    background-color: rgb(3, 142, 3);
+    height: 100px;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 25px 15px;
+    padding-left: 25px;
+    margin-right: 20px;
+    color: white;
+}
+.left-box {
+    flex: 1;
+}
+.right-box2 {
+    flex: 1;
+    
+}
+
+.para {
+    display: flex;
+    gap: 5px;
+    width: 100%
+      
+}
+.transaction {
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+
+
+}
+
+.transaction p {
+    display: flex;
+    padding-bottom: 15px;
+}
+.transaction button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    margin: 0px;
+    background-color: blue;
+  
+    
+    
+}
+
+
+
+
+
+    
+
+
+  
+    
+    
+    
+    
+
+
+

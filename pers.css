@@ -140,7 +140,7 @@ nav {
 .video-image:hover {
     cursor: pointer;
     border-radius: 0px;
-    right: 0px;
+    right: 0;
 }
 .video-title {
     margin: 0;
@@ -163,7 +163,6 @@ nav {
     gap: 5px;
 }
 
-  
 
 
 
