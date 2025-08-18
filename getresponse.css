@@ -32,7 +32,7 @@ li {
     gap: 20px;
 }
 .right-box button:first-child{
-    background-color: none;
+    background: none;
     border: none;
     font-weight: bold;
 }
@@ -42,7 +42,7 @@ li {
     border-radius: 7px;
     padding: 10px 20px;
     font-weight: bold;
-    background-color: none;
+    background: none;
 }
 .right-box button:last-child {
     color: white;
